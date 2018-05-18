@@ -25,4 +25,5 @@ def now_serving(line)
     puts "Currently serving #{serving}."
     return line.slice(0)
   end
+  return line
 end
