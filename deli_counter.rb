@@ -6,8 +6,9 @@ def line(guests)
   else 
     line = "The line is currently: "
     guests.each_with_index do |name, i|
-      line<<
-      
+      line << "#{i+1}. #{name} "
+    end
+  end
 end
 
 def take_a_number(line, name)
