@@ -6,6 +6,7 @@ def line(guests)
   else 
     line = "The line is currently: "
     guests.each_with_index do |name, i|
+      line<<
       
 end
 
@@ -17,3 +18,4 @@ end
 def now_serving(line)
   
 end
+he line is currently: 1. Logan 2. Avi 3. Spencer
