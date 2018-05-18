@@ -21,7 +21,7 @@ def now_serving(line)
   if line.length == 0 
     puts "There is nobody waiting to be served!"
   else
-    serving = line.uns
+    serving = line.slice(0)
     puts "Currently serving #{serving}."
     return line
   end
