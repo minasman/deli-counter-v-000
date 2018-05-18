@@ -6,7 +6,7 @@ end
 
 def take_a_number(line, name)
   line.push(name)
-  puts "#{name} "
+  puts "Welcome#{name} "
 end
 
 def now_serving(line)
