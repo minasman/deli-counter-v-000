@@ -9,7 +9,7 @@ def line(guests)
       line += "#{i+1}. #{name} "
     end
   end
-  puts line
+  puts line.chomp
 end
 
 def take_a_number(line, name)
