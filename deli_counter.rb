@@ -8,8 +8,8 @@ def line(guests)
     guests.each_with_index do |name, i|
       line += "#{i+1}. #{name} "
     end
+    puts line.strip
   end
-  puts line.strip
 end
 
 def take_a_number(line, name)
