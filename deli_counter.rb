@@ -4,6 +4,7 @@ def line(guests)
   if guests.size == 0 
     puts "The line is currently empty."
   else 
+    line = ""
     guests.each_with_index do |name, i|
       
 end
