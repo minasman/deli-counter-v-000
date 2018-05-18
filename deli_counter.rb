@@ -19,4 +19,3 @@ end
 def now_serving(line)
   
 end
-he line is currently: 1. Logan 2. Avi 3. Spencer
