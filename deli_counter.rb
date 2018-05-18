@@ -22,6 +22,6 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{line.pop}."
-    line.pop
+    return line.pop
   end
 end
