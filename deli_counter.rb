@@ -22,7 +22,7 @@ def now_serving(line)
     puts "There is nobody waiting to be served!"
   else
     serving = line.pop
-    puts "Currently serving #{line.pop}."
-    return line.pop
+    puts "Currently serving #{serving}."
+    return line
   end
 end
