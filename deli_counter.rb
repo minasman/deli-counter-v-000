@@ -23,6 +23,6 @@ def now_serving(line)
   else
     serving = line.slice(0)
     puts "Currently serving #{serving}."
-    return line
+    return line.slice
   end
 end
